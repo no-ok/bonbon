@@ -1,0 +1,514 @@
+﻿<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    <title>Бонбон - гуртовий магазин продуктів з Європи</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/libs.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body class="index-page">
+    <div id="wrapper">
+      <header class="main-header">
+        <div class="container">
+          <div class="header-contacts">
+            <div><a href="tel:+380983218242"><span>(098) 321 82 42</span> - менеджер Володимир</a></div>
+
+            <div><a href="tel:+380983218315"><span>(098) 321 83 15</span> - менеджер Андрій</a></div>
+
+            <div><a href="tel:+380983218267"><span>(098) 321 82 67</span> - менеджер Василь</a></div>
+  
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none"><path d="M17.111 8.708h-1.528a2.294 2.294 0 0 0-2.291-2.291V4.889a3.824 3.824 0 0 1 3.82 3.82Z" fill="#8F838B"/><path d="M20.167 8.708h-1.528a5.353 5.353 0 0 0-5.347-5.347V1.833a6.883 6.883 0 0 1 6.875 6.875ZM18.64 20.93h-.129C3.501 20.068 1.369 7.403 1.071 3.538a2.292 2.292 0 0 1 2.292-2.468H7.39a1.528 1.528 0 0 1 1.42.963l1.162 2.857a1.528 1.528 0 0 1-.336 1.65L8.008 8.18a7.15 7.15 0 0 0 5.79 5.806l1.658-1.643a1.528 1.528 0 0 1 1.657-.313l2.88 1.154a1.528 1.528 0 0 1 .94 1.42v4.034a2.292 2.292 0 0 1-2.292 2.292ZM3.364 2.598a.764.764 0 0 0-.764.825c.352 4.522 2.605 15.217 15.996 15.98a.764.764 0 0 0 .808-.716l.002-.047v-4.033l-2.88-1.154-2.192 2.177-.367-.046c-6.646-.832-7.547-7.478-7.547-7.547l-.046-.367 2.17-2.192-1.147-2.88H3.363Z" fill="#8F838B"/></svg>
+          </div>
+
+          <div class="main-logo">
+            <div>БОНБОН</div> <small>Гуртовий магазин продуктів з Європи</small>
+          </div>
+          
+          <nav class="main-nav">
+            <a href="#goods">Товари</a>
+
+            <a href="#about">Про нас</a>
+
+            <a href="#contacts">Контакти</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="page-content">
+        <div class="main-slider">
+          <div class="item">
+            <video id="index-video" autoplay="" loop="true" muted="" playsinline="" poster="video/video-poster.jpg">
+                <!-- <source src="video/video-slide.webm" type="video/webm"> -->
+                <source src="video/video-slide.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <div class="item">
+            <picture class="">
+              <!-- <source srcset="" type="image/webp"> -->
+
+              <img src="img/slides/slide-4.jpg" alt="Слайд 4">
+            </picture>
+          </div>
+
+          <div class="item">
+            <picture class="">
+              <!-- <source srcset="" type="image/webp"> -->
+
+              <img src="img/slides/slide-1.jpg" alt="Слайд 1">
+            </picture>
+          </div>
+
+          <div class="item">
+            <picture class="">
+              <!-- <source srcset="" type="image/webp"> -->
+
+              <img src="img/slides/slide-2.jpg" alt="Слайд 2">
+            </picture>
+          </div>
+
+          <div class="item">
+            <picture class="">
+              <!-- <source srcset="" type="image/webp"> -->
+
+              <img src="img/slides/slide-3.jpg" alt="Слайд 3">
+            </picture>
+          </div>
+        </div>
+
+        <section id="goods" class="goods-section">
+          <div class="container">
+            <div class="title-container">
+              <div class="h2">Товари</div>
+
+              <span>Товари</span>
+            </div>
+
+            <div class="row">
+              <div class="col-6 col-md-4">
+                <div class="link-holder">
+                  <a href="#goods-modal" rel="modal:open" class="modal-link">
+                    <span class="goods-img">
+                      <img src="img/goods/products-1.png" alt="Кава">
+                    </span>
+
+                    <span class="goods-title">Кава</span>
+                  </a>
+
+                  <!-- Блок який відображатиметься в модальному вікні -->
+                  <div class="toggle-content">
+                    <h3>Кава</h3>
+
+                    <div class="modal-brands">
+                      <img src="img/brands/lavazza.png" alt="">
+
+                      <img src="img/brands/Dallmayr.png" alt="">
+
+                      <img src="img/brands/Chiccodoro.png" alt="">
+
+                      <img src="img/brands/movenpick.png" alt="">
+
+                      <img src="img/brands/Illy.png" alt="">
+
+                      <img src="img/brands/Kimbo.png" alt="">
+
+                      <img src="img/brands/Segafredo.png" alt="">
+
+                      <img src="img/brands/vergnano.png" alt="">
+
+                      <img src="img/brands/pellini.png" alt="">
+
+                      <img src="img/brands/Melitta.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-md-4">
+                <div class="link-holder">
+                  <a href="#goods-modal" rel="modal:open" class="modal-link">
+                    <span class="goods-img">
+                      <img src="img/goods/products-2.png" alt="Шоколад">
+                    </span>
+
+                    <span class="goods-title">Шоколад</span>
+                  </a>
+
+                  <!-- Блок який відображатиметься в модальному вікні -->
+                  <div class="toggle-content">
+                    <h3>Шоколад</h3>
+
+                    <div class="modal-brands">
+                      <img src="img/brands/milka.png" alt="">
+
+                      <img src="img/brands/toblerone-logo.png" alt="">
+
+                      <img src="img/brands/Ritter_Sport_logo.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-md-4">
+                <div class="link-holder">
+                  <a href="#goods-modal" rel="modal:open" class="modal-link">
+                    <span class="goods-img">
+                      <img src="img/goods/products-3.png" alt="Напої">
+                    </span>
+
+                    <span class="goods-title">Напої</span>
+                  </a>
+
+                  <!-- Блок який відображатиметься в модальному вікні -->
+                  <div class="toggle-content">
+                    <h3>Напої</h3>
+
+                    <div class="modal-brands">
+                      <img src="img/brands/caprisun.png" alt="">
+
+                      <img src="img/brands/Fanta.png" alt="">
+
+                      <img src="img/brands/Dr_Pepper.png" alt="">
+
+                      <img src="img/brands/monster.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-md-4">
+                <div class="link-holder">
+                  <a href="#goods-modal" rel="modal:open" class="modal-link">
+                    <span class="goods-img">
+                      <img src="img/goods/products-4.png" alt="Печиво">
+                    </span>
+
+                    <span class="goods-title">Печиво</span>
+                  </a>
+
+                  <!-- Блок який відображатиметься в модальному вікні -->
+                  <div class="toggle-content">
+                    <h3>Печиво</h3>
+
+                    <div class="modal-brands">
+                      <img src="img/brands/milka.png" alt="">
+
+                      <img src="img/brands/Oreo-Logo.png" alt="">
+
+                      <img src="img/brands/bergen.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-md-4">
+                <div class="link-holder">
+                  <a href="#goods-modal" rel="modal:open" class="modal-link">
+                    <span class="goods-img">
+                      <img src="img/goods/products-5.png" alt="Олія">
+                    </span>
+
+                    <span class="goods-title">Олія</span>
+                  </a>
+
+                  <!-- Блок який відображатиметься в модальному вікні -->
+                  <div class="toggle-content">
+                    <h3>Олія</h3>
+
+                    <div class="modal-brands">
+                      <img src="img/brands/monini.png" alt="">
+                      <img src="img/brands/Carapelli.png" alt="">
+                      <img src="img/brands/decheco.jpg" alt="">
+                      <img src="img/brands/dante.png" alt="">
+                      <img src="img/brands/bertolli.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-md-4">
+                <div class="link-holder">
+                  <a href="#goods-modal" rel="modal:open" class="modal-link">
+                    <span class="goods-img">
+                      <img src="img/goods/products-6.png" alt="Інше">
+                    </span>
+
+                    <span class="goods-title">Інше</span>
+                  </a>
+
+                  <!-- Блок який відображатиметься в модальному вікні -->
+                  <div class="toggle-content">
+                    <h3>Інше</h3>
+
+                    <div class="modal-brands">
+                      <img src="img/brands/pringles.png" alt="">
+                      <img src="img/brands/haribo.jpg" alt="">
+                      <img src="img/brands/trolli.gif" alt="">
+                      <img src="img/brands/Nutella_logo.png" alt="">
+                      <img src="img/brands/milka.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="about-section">
+          <div class="container">
+            <div class="title-container">
+              <div class="h2">Про нас</div>
+
+              <span>Про нас</span>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="img-holder">
+                  <picture class="">
+                    <!-- <source srcset="" type="image/webp"> -->
+
+                    <img src="img/about/about-1.jpg" alt="Про нас">
+                  </picture>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="text-holder">
+                  <p><b><span>БОНБОН</span></b> – українська компанія, яка займається прямим постачанням продуктів харчування з Європи різних закордонних виробників. Пропонуємо лише якісну та оригінальну продукцію широкого асортименту з Італії, Німеччини, Бельгії, Польщі та інших країн. Працюємо в даній сфері діяльності вже близько 5-ти років. За цей час укріпили свої позиції серед багатьох інших імпортерів.</p>
+
+                  <h3>Основні товари:</h3>
+
+                  <ul>
+                    <li>Кава мелена та в зернах</li>
+                    <li>Солодощі (печиво, шоколад, мармеладні цукерки та ін.)</li>
+                    <li>Бакалія (оливкові олії, консервація)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contacts" class="contacts-section">
+          <div class="container">
+            <div class="title-container">
+              <div class="h2">Контакти</div>
+
+              <span>Контакти</span>
+            </div>
+
+            <div class="row">
+              <div class="col-xl-5">
+                <div class="row">
+                  <div class="col-6 col-md-7">
+                    <div class="message-item">
+                      <div class="h3">Телефони</div>
+
+                      <div class="manager-phone"><a href="tel:+380983218242"><span>+38 (098) 321 82 42</span> - менеджер Володимир</a></div>
+
+                      <div class="link-item">
+                        <img src="img/icons/viber-icon.svg" alt="viber">
+
+                        <a href="viber://add?number=0932772818" target="_blank">Чат в Viber</a>
+                      </div>
+
+                      <div class="link-item">
+                        <img src="img/icons/telegram-icon.svg" alt="telegram">
+
+                        <a href="https://t.me/vinaviua" target="_blank">Чат в Telegram</a>
+                      </div>
+
+                      <div class="link-item">
+                        <img src="img/icons/whatsapp-icon.svg" alt="whatsapp">
+
+                        <a href="skype:vinaviua?chat" target="_blank">Чат в Whatsapp</a>
+                      </div>
+                    </div>
+
+                    <div class="message-item">
+                      <div class="manager-phone"><a href="tel:+380983218315"><span>+38 (098) 321 83 15</span> - менеджер Андрій</a></div>
+
+                      <div class="link-item">
+                        <img src="img/icons/viber-icon.svg" alt="viber">
+
+                        <a href="viber://add?number=0932772818" target="_blank">Чат в Viber</a>
+                      </div>
+
+                      <div class="link-item">
+                        <img src="img/icons/telegram-icon.svg" alt="telegram">
+
+                        <a href="https://t.me/vinaviua" target="_blank">Чат в Telegram</a>
+                      </div>
+
+                      <div class="link-item">
+                        <img src="img/icons/whatsapp-icon.svg" alt="whatsapp">
+
+                        <a href="skype:vinaviua?chat" target="_blank">Чат в Whatsapp</a>
+                      </div>
+                    </div>
+
+
+                    <div class="message-item">
+                      <div class="manager-phone"><a href="tel:+380983218267"><span>+38 (098) 321 82 67</span> - менеджер Василь</a></div>
+
+                      <div class="link-item">
+                        <img src="img/icons/viber-icon.svg" alt="viber">
+
+                        <a href="viber://add?number=0932772818" target="_blank">Чат в Viber</a>
+                      </div>
+
+                      <div class="link-item">
+                        <img src="img/icons/telegram-icon.svg" alt="telegram">
+
+                        <a href="https://t.me/vinaviua" target="_blank">Чат в Telegram</a>
+                      </div>
+
+                      <div class="link-item">
+                        <img src="img/icons/whatsapp-icon.svg" alt="whatsapp">
+
+                        <a href="skype:vinaviua?chat" target="_blank">Чат в Whatsapp</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-md-5">
+                    <div class="address-item">
+                      <div class="h3">Адреса магазину</div>
+
+                      <div class="link-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="25" fill="none" ><path fill="#8F838B" d="M11 14.4737a4.4768 4.4768 0 0 1-2.5164-.7761c-.7449-.506-1.3254-1.2253-1.6682-2.0668A4.677 4.677 0 0 1 6.5576 8.97c.1748-.8933.6062-1.714 1.2396-2.358.6335-.644 1.4405-1.0826 2.3192-1.2603a4.46 4.46 0 0 1 2.6169.262c.8277.3486 1.5351.9389 2.0328 1.6962a4.6602 4.6602 0 0 1 .7633 2.5585c-.0014 1.221-.4791 2.3915-1.3282 3.2548-.8491.8634-2.0004 1.349-3.2012 1.3505Zm0-7.3684a2.686 2.686 0 0 0-1.5099.4657 2.7538 2.7538 0 0 0-1.0009 1.24 2.806 2.806 0 0 0-.1546 1.5965 2.7777 2.7777 0 0 0 .7437 1.4148c.3801.3864.8643.6496 1.3915.7562a2.6766 2.6766 0 0 0 1.5702-.1572 2.728 2.728 0 0 0 1.2196-1.0177 2.7957 2.7957 0 0 0 .458-1.5352c-.0007-.7326-.2872-1.435-.7967-1.953S11.7205 7.106 11 7.1053Z"/><path fill="#8F838B" d="m10.9999 25-7.4435-8.883a31.1036 31.1036 0 0 1-.307-.4027c-1.2715-1.6949-1.9584-3.765-1.9553-5.8929 0-2.6048 1.0226-5.1029 2.8428-6.9448C5.957 1.0348 8.4258 0 10.9999 0c2.5742 0 5.0429 1.0348 6.8631 2.8766 1.8202 1.8419 2.8428 4.34 2.8428 6.9448.0031 2.1269-.6835 4.1961-1.9544 5.8902l-.0009.0027s-.2647.3518-.3044.3991L10.9999 25ZM4.6576 14.6384c.0018 0 .2065.275.2532.3339L11 22.2393l6.0971-7.2768c.0388-.0491.2453-.3259.2462-.3268 1.0386-1.3847 1.6-3.0759 1.5979-4.8143 0-2.1312-.8366-4.175-2.3259-5.682-1.4893-1.507-3.5091-2.3537-5.6153-2.3537-2.106 0-4.126.8466-5.6152 2.3536-1.4893 1.507-2.326 3.551-2.326 5.6821-.0018 1.7395.5602 3.4316 1.5998 4.817h-.0009Z"/></svg>
+
+                        <p>м.Львів, <br> вул. М.Галябарди, 67</p>
+                      </div>
+                    </div>
+
+                    <div class="time-item">
+                      <div class="h3">Графік роботи</div>
+
+                      <div class="link-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none"><g fill="#8F838B" clip-path="url(#a)"><path d="M11.0009.242C5.0603.242.2435 5.0586.2435 10.9992c0 5.9406 4.8168 10.7574 10.7574 10.7574 5.9405 0 10.7573-4.8168 10.7573-10.7574 0-5.9406-4.8168-10.7574-10.7573-10.7574Zm0 19.6897c-4.932 0-8.9325-4.0003-8.9325-8.9324 0-4.932 4.0004-8.9324 8.9325-8.9324 4.932 0 8.9324 4.0003 8.9324 8.9324 0 4.9321-4.0004 8.9324-8.9324 8.9324Z"/><path d="m15.1956 14.0406-3.4241-2.4756V5.622a.1927.1927 0 0 0-.1921-.192h-1.155a.1926.1926 0 0 0-.1921.192v6.6129c0 .0624.0288.1201.0792.1561l3.9716 2.8958a.1938.1938 0 0 0 .2689-.0408l.6868-.9365c.0624-.0888.0432-.2089-.0432-.2689Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h22v22H0z"/></clipPath></defs></svg>
+
+                        <table>
+                          <tr>
+                            <td>Пн-Пт:</td>
+
+                            <td> 9.00-18.00</td>
+                          </tr>
+
+                          <tr>
+                            <td>Сб-Нд:</td>
+
+                            <td> 9.00-16.00</td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+
+                    <div class="message-item">
+                      <div class="h3">Напишіть нам</div>
+
+                      <div class="link-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" fill="none"><g clip-path="url(#a)"><path fill="#8F838B" d="M20.9992 1.4248a.8.8 0 0 0-.0671-.303.8408.8408 0 0 0-.0765-.1352.8079.8079 0 0 0-.0486-.0623c-.0043-.005-.0081-.0104-.0126-.0154-.0037-.0041-.0078-.0076-.0117-.0116a.9067.9067 0 0 0-.0572-.0549.7318.7318 0 0 0-.029-.0236.7104.7104 0 0 0-.0323-.0244c-.0096-.0067-.0195-.013-.0293-.0193a.7471.7471 0 0 0-.0351-.0216c-.0105-.0059-.0213-.0112-.0319-.0168-.0118-.006-.0235-.0119-.0353-.017-.0118-.0053-.0239-.01-.036-.0146-.0115-.0045-.0228-.009-.0344-.0128-.0127-.0042-.0258-.0077-.0388-.0114-.0115-.0031-.0229-.0063-.0345-.0089a.7874.7874 0 0 0-.0393-.0075.771.771 0 0 0-.037-.0057.7647.7647 0 0 0-.0376-.0035.7733.7733 0 0 0-.0409-.002c-.0056-.0003-.011-.001-.0165-.001H1.4349c-.0052 0-.0102.0007-.0156.0008a.7824.7824 0 0 0-.0431.0022 1.342 1.342 0 0 0-.0354.0033.7502.7502 0 0 0-.0393.0061c-.0125.0022-.025.0043-.0372.0071C1.252.6746 1.24.678 1.2277.6813c-.0124.0035-.0247.0069-.0368.011-.0123.0039-.0243.0086-.0363.0133-.0115.0044-.023.0088-.034.0137-.0126.0055-.0247.0118-.037.018-.0102.0053-.0205.0103-.0305.016a.7732.7732 0 0 0-.0362.0222C1.0075.7816.9978.7877.9886.7943a.7178.7178 0 0 0-.033.0247.7506.7506 0 0 0-.0858.0782C.866.9012.8618.9048.8581.909.8536.914.8499.9192.8456.9242a.7982.7982 0 0 0-.1922.5006c-.0003.0063-.001.0125-.001.0189v13.4521c.0004.4196.1655.8219.4589 1.1186a1.558 1.558 0 0 0 1.1063.464H19.435a1.5579 1.5579 0 0 0 1.1062-.464 1.5938 1.5938 0 0 0 .459-1.1186V1.4437c0-.0064-.0008-.0126-.001-.0189ZM2.2176 3.2424l5.743 5.323-5.743 5.3229V3.2423Zm9.7965 4.731-.0006.0006-1.1872 1.1005-7.3794-6.8396h14.7587l-6.1915 5.7386ZM9.1188 9.6389l1.1786 1.0924a.778.778 0 0 0 .5289.208.7776.7776 0 0 0 .5288-.208l1.1787-1.0924 5.6718 5.257H3.4469l5.6719-5.257Zm4.5732-1.0734 5.7431-5.323.0007 10.6467-5.7438-5.3237Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h21v17H0z"/></clipPath></defs></svg>
+
+                        <a href="mailto:bonbon@gmail.com" target="_blank">bonbon@gmail.com</a>
+                      </div>
+                    </div>
+
+                    <div class="social-item">
+                      <div class="h3">Ми в соцмережах</div>
+
+                      <div class="link-item">
+                        <img src="img/icons/facebook-icon.svg" alt="Facebook">
+
+                        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-7">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d454.87517947884805!2d24.035879031873037!3d49.83940239415803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6be9dc2593%3A0xa92d9411db5453ac!2sPloshcha%20Mytna%2C%20L&#39;viv%2C%20L&#39;vivs&#39;ka%20oblast%2C%2079000!5e0!3m2!1sen!2sua!4v1697049988634!5m2!1sen!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="brands-section">
+          <div class="container">
+            <h2>НАШІ БРЕНДИ</h2>
+
+            <div class="brands-row">
+              <img src="img/brands/lavazza.png" alt="">
+              <img src="img/brands/Dallmayr.png" alt="">
+              <img src="img/brands/Kimbo.png" alt="">
+              <img src="img/brands/Illy.png" alt="">
+              <img src="img/brands/Chiccodoro.png" alt="">
+              <img src="img/brands/eeilles.png" alt="">
+              <img src="img/brands/gimoka.png" alt="">
+              <img src="img/brands/Jacobs.jpg" alt="">
+              <img src="img/brands/Melitta.png" alt="">
+              <img src="img/brands/movenpick.png" alt="">
+              <img src="img/brands/pellini.png" alt="">
+              <img src="img/brands/Segafredo.png" alt="">
+              <img src="img/brands/vergnano.png" alt="">
+              <img src="img/brands/milka.png" alt="">
+              <img src="img/brands/tobleron.png" alt="">
+              <img src="img/brands/Kinder.png" alt="">
+              <img src="img/brands/Ritter_Sport_logo.png" alt="">
+              <img src="img/brands/Ferrero_Rocher.png" alt="">
+              <img src="img/brands/oreo.jpg" alt="">
+              <img src="img/brands/pringles.png" alt="">
+              <img src="img/brands/haribo.jpg" alt="">
+              <img src="img/brands/trolli.gif" alt="">
+              <img src="img/brands/Hubba_Bubba.png" alt="">
+              <img src="img/brands/Fanta.png" alt="">
+              <img src="img/brands/Dr_Pepper.png" alt="">
+              <img src="img/brands/monini.png" alt="">
+              <img src="img/brands/Carapelli.png" alt="">
+              <img src="img/brands/decheco.jpg" alt="">
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <div class="modal" id="goods-modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <a class="modal-close" href="#" rel="modal:close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 18 18"><g clip-path="url(#a)"><path fill="#fff" d="m9.994 9.001 7.7997-7.7997a.7031.7031 0 1 0-.9944-.9944L8.9996 8.0066 1.2.2069a.7031.7031 0 1 0-.9944.9944L8.0052 9.001.2056 16.8006a.7031.7031 0 1 0 .9944.9944l7.7996-7.7996 7.7997 7.7996a.7008.7008 0 0 0 .4972.2059.7031.7031 0 0 0 .4972-1.2003L9.994 9.001Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h18v18H0z"/></clipPath></defs></svg>
+          </a>
+        </div>
+
+        <div class="modal-body"></div>
+      </div>
+    </div>
+  </body>
+</html>

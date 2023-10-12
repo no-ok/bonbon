@@ -1,0 +1,128 @@
+.goods-section {
+	background-color: #fff;
+	padding: 100px 0;
+	position: relative;
+}
+
+.goods-section:before, 
+.goods-section:after {
+    content: '';
+    width: 100vw;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    z-index: 2;
+}
+
+.goods-section:before {
+    top: -29px;
+    background: url(../img/icons/brush-line-bottom.svg) repeat-x left bottom;
+}
+
+.goods-section:after {
+    bottom: -20px;
+    background: url(../img/icons/brush-line-top.svg) repeat-x left bottom;
+}
+
+.goods-section .col-md-4 {
+    margin-bottom: 40px;
+}
+
+.goods-section .link-holder a {
+    display: flex;
+    flex-direction: column;
+    color: #312B2F;
+    text-decoration: none;
+    transition: 0.25s;
+    border: 2px solid transparent;
+    padding: 20px 0;
+    border-radius: 30px;
+}
+
+.goods-section .link-holder a:hover {
+    color: #8F838B;
+    border-color: #8F838B;
+}
+
+.goods-section .goods-img {
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.goods-section .goods-img img {
+    display: block;
+    max-width: 90%;
+    max-height: 90%;
+    transition: 0.25s;
+}
+
+.goods-section .goods-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+
+.goods-section .link-holder:hover img {
+    transform: scale(1.05);
+}
+
+
+.goods-section .toggle-content {
+    display: none;
+}
+
+@media(max-width: 1699px) {
+    .goods-section {
+        padding: 80px 0;
+    }
+
+    .goods-section .goods-title {
+        font-size: 28px;
+    }
+}
+
+@media(max-width: 1399px) {
+    .goods-section {
+        padding: 50px 0;
+    } 
+}
+
+@media(max-width: 991px) {
+    .goods-section:before {
+        background: url(../img/icons/brush-line-bottom.svg) repeat-x center bottom;
+    }
+
+    .goods-section .goods-title {
+        font-size: 24px;
+    }
+
+    .goods-section {
+        padding: 50px 0 5px;
+    }
+}
+
+@media(max-width: 575px) {
+    .goods-section {
+        padding-bottom: 20px;
+    }
+
+   .goods-section .goods-title {
+       font-size: 20px;
+   }
+
+   .goods-section .goods-img {
+        height: 120px;
+   }
+
+   .goods-section .col-md-4 {
+        margin-bottom: 5px;
+   }
+
+   .goods-section .title-container {
+        margin-bottom: 20px;
+   } 
+}

@@ -1,0 +1,163 @@
+.blocker {
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  width: 100%; height: 100%;
+  overflow: auto;
+  z-index: 1000;
+  padding: 20px;
+  box-sizing: border-box;
+  background: rgba(49, 43, 47, 0.93);
+  text-align: center;
+}
+
+.blocker:before{
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.05em;
+}
+
+.blocker.behind {
+  background-color: transparent;
+}
+
+.modal {
+  display: none;
+  vertical-align: middle;
+  position: relative;
+  z-index: 2;
+  max-width: 1100px;
+  box-sizing: border-box;
+  width: 90%;
+  background-color: #fff;
+  text-align: left;
+  border-radius: 30px;
+}
+
+.modal a.modal-close {
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #312B2F;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.modal a.modal-close:hover {
+  transform: rotate(90deg);
+  background-color: #000;
+}
+
+.close-modal {
+  display: none;
+}
+
+.modal-content {
+
+}
+
+.modal-header {
+  position: relative;
+  padding: 20px 0;
+}
+
+.modal-body {
+  padding:  0 80px 80px;
+  color: #312B2F;
+}
+
+.modal-body .h3,
+.modal-body h3 {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 40px;
+}
+
+.modal-brands {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.modal-brands img {
+  display: block;
+  max-width: calc(33.33% - 150px);
+  margin: 0 30px 30px;
+  max-height: 100px;
+}
+
+
+@media(max-width: 1199px){
+  .modal-body {
+    padding: 0 30px 50px;
+  }
+
+  .modal-brands img {
+    max-width: 220px;
+  }
+
+  .modal a.modal-close {
+    width: 42px;
+    height: 42px;
+  }
+
+  .modal {
+    width: calc(100% - 10px);
+  }
+
+  .blocker {
+    padding: 10px;
+  }
+}
+
+@media(max-width: 991px){
+  .modal-body {
+    padding: 0 20px 30px;
+  }
+
+  .modal-brands img {
+    max-width: 120px;
+    margin: 0 10px 20px;
+  }
+
+  .modal a.modal-close {
+    width: 32px;
+    height: 32px;
+  }
+
+  .modal a.modal-close svg {
+    width: 12px;
+    height: 12px;
+  }
+
+  .modal-body .h3, .modal-body h3 {
+    font-size: 28px;
+  }
+}
+
+@media(max-width: 767px) {
+  .modal-body {
+    padding: 0 10px 20px;
+  }
+
+  .modal-brands img {
+    max-width: calc(50% - 20px);
+  }
+
+  .modal-body .h3, .modal-body h3 {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+}
+
+
+

@@ -1,0 +1,168 @@
+.main-header {
+	padding: 32px 0 40px;
+}
+
+.main-header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-contacts {
+	position: relative;
+	padding-left: 32px;
+	font-size: 15px;
+}
+
+.header-contacts svg {
+	position: absolute;
+	top: 1px;
+	left: 0;
+}
+
+.header-contacts a {
+	text-decoration: none;
+	color: #8F838B;
+}
+
+.header-contacts a:hover span {
+	text-decoration: underline;
+}
+
+.header-contacts div {
+	margin-bottom: 3px;
+}
+
+.header-contacts a span {
+	color: #fff;
+}
+
+.main-nav a {
+	font-size: 24px;
+	font-weight: 500;
+	color: #fff;
+	text-decoration: none;
+	margin-left: 30px;
+	transition: 0.25s;
+}
+
+.main-nav a:hover {
+	color: #DEC2CC;
+	text-decoration: underline;
+}
+
+
+.main-logo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-logo div {
+	font-size: 73px;
+	font-weight: 700;
+	line-height: 1;
+	letter-spacing: 3px;
+}
+
+.main-logo small {
+	font-size: 17px;
+	letter-spacing: 0.3px;
+	padding-right: 2px;
+	line-height: 1;
+	white-space: nowrap;
+}
+
+@media(max-width: 1699px) {
+	.main-header {
+		padding: 25px 0 30px;
+	}
+
+	.main-nav a {
+		font-size: 18px;
+	}
+
+	.main-logo div {
+		font-size: 63px;
+	}
+
+	.main-logo small {
+		font-size: 15px;
+		letter-spacing: 0.15px;
+	}
+
+	.header-contacts {
+		font-size: 13px;
+	}
+}
+
+@media(max-width: 1399px) {
+	.main-logo div {
+		font-size: 54px;
+	}
+
+	.main-logo small {
+		font-size: 13px;
+		letter-spacing: 0.1px;
+	}
+
+	.main-nav a {
+		font-size: 16px;
+	}
+}
+
+@media(max-width: 1199px) {
+	.header-contacts {
+		font-size: 12px;
+	}
+
+	.main-nav a {
+		margin-left: 20px;
+	}
+}
+
+@media(max-width: 991px) {
+	.main-header {
+		padding: 20px 0 25px;
+	}
+
+	.main-header .container {
+		display: block;
+	}
+
+	.main-logo {
+		margin-bottom: 20px;
+	}
+
+	.main-logo small {
+		font-size: 12px;
+	}
+
+	.header-contacts {
+		display: none;
+	}
+
+	.main-nav {
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.main-nav a {
+		font-size: 20px;
+		margin: 0 10px;
+		color:#DEC2CC;
+	}
+}
+
+@media(max-width: 767px) {
+	.main-nav a {
+		font-size: 18px;
+	}
+}
+
+@media(max-width: 575px) {
+
+}
+
